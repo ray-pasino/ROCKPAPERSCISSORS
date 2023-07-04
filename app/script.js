@@ -42,7 +42,7 @@ function getResult(playerChoice, computerChoice) {
     score = 1
 
   }else if (playerChoice == 'Scissors' && computerChoice == 'Paper'){
-    score = 0
+    score = 1
 
   }
   // Otherwise human loses (aka set score to -1)
